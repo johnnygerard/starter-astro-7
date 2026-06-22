@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@layer base {
+  button,
+  [role="button"] {
+    cursor: pointer;
+  }
+}
+
+@theme inline {
+  --font-sans: var(--default-font);
+}

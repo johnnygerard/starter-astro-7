@@ -1,0 +1,40 @@
+---
+import { Font } from "astro:assets";
+import Favicon from "~/assets/images/favicon.svg";
+import "~/styles/global.css";
+
+type Props = {
+  title: string;
+  description: string;
+  noIndex?: boolean;
+};
+
+const { title, description, noIndex = false } = Astro.props;
+---
+
+<!doctype html>
+<html class="motion-safe:scroll-smooth" lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <Font cssVariable="--default-font" preload />
+    <link rel="icon" type="image/svg+xml" href={Favicon.src} />
+    <meta name="color-scheme" content="light" />
+    <meta name="description" content={description} />
+    <meta name="generator" content={Astro.generator} />
+    {
+      noIndex && (
+        // Bing: https://www.bing.com/webmasters/help/robots-meta-tags-and-attributes-that-bing-supports-5198d240
+        // Google: https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag#directives
+        <meta name="robots" content="noindex" />
+      )
+    }
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+  </head>
+  <body>
+    {/* Wrap with `div` to prevent a body overflow in mobile browsers. */}
+    <div>
+      <slot />
+    </div>
+  </body>
+</html>
