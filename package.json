@@ -28,7 +28,7 @@
       "version": "24"
     }
   },
-  "name": "min-starter-astro-6",
+  "name": "starter-astro-7",
   "private": true,
   "scripts": {
     "astro": "astro",
