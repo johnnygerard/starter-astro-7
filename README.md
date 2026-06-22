@@ -1,4 +1,4 @@
-# Astro 6 Minimal Starter
+# Astro 7 Starter
 
 This starter repository facilitates the creation of new Astro projects using the configuration described below.
 
@@ -12,7 +12,7 @@ out [Creating a repository from a template](https://docs.github.com/en/repositor
 
 ### Frontend
 
-- **Framework**: [Astro 6](https://astro.build/)
+- **Framework**: [Astro 7](https://astro.build/)
 - **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
 
 ### Backend
@@ -29,7 +29,6 @@ out [Creating a repository from a template](https://docs.github.com/en/repositor
 - **System**: [Ubuntu](https://ubuntu.com/desktop)
 - **Editor**: [VS Code](https://code.visualstudio.com/)
 - **Formatter**: [Prettier](https://prettier.io/)
-- **AI assistant**: [GitHub Copilot](https://github.com/features/copilot)
 
 ## Notes
 
