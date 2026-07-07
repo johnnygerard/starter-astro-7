@@ -17,12 +17,13 @@ export default defineConfig({
      * @see https://fonts.google.com/specimen/Geist/about
      */
     {
-      cssVariable: "--default-font",
+      cssVariable: "--font-geist-sans",
       name: "Geist",
       provider: fontProviders.google(),
       styles: ["normal", "italic"],
       subsets: ["latin"],
       weights: ["100 900"],
+      fallbacks: ["sans-serif"],
     },
   ],
   integrations: [sitemap()],

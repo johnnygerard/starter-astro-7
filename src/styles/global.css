@@ -1,12 +1,16 @@
 @import "tailwindcss";
 
+/* Tailwind CSS layers:
+@layer properties;
+@layer theme, base, components, utilities; */
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+}
+
 @layer base {
   button,
   [role="button"] {
     cursor: pointer;
   }
-}
-
-@theme inline {
-  --font-sans: var(--default-font);
 }
