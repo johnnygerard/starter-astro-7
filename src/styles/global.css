@@ -9,8 +9,7 @@
 }
 
 @layer base {
-  button,
-  [role="button"] {
+  button {
     cursor: pointer;
   }
 }
