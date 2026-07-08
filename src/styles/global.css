@@ -12,4 +12,11 @@
   button {
     cursor: pointer;
   }
+
+  a,
+  button {
+    @apply rounded-xs outline-2 outline-offset-2 outline-transparent focus-visible:outline-blue-600;
+    /* Override Firefox default styles */
+    @apply focus-visible:outline-2 focus-visible:outline-solid;
+  }
 }
