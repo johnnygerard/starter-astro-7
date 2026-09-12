@@ -20,7 +20,7 @@
     "packageManager": {
       "name": "npm",
       "onFail": "warn",
-      "version": "12"
+      "version": "11"
     },
     "runtime": {
       "name": "node",
