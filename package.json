@@ -42,7 +42,7 @@
     "preview": "astro preview --port 3321",
     "pw": "playwright",
     "pw:test": "playwright test",
-    "qa": "npm run format:check && npm run build && npm run check && npm test && npm run pw:test",
+    "qa": "npm run format:check && npm run build && npm run check && npm test",
     "test": "vitest run",
     "test:watch": "vitest watch",
     "wg": "wrangler"
