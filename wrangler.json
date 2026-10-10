@@ -6,7 +6,7 @@
     "html_handling": "drop-trailing-slash",
     "not_found_handling": "404-page"
   },
-  "compatibility_date": "2026-06-10",
+  "compatibility_date": "2026-10-10",
   "compatibility_flags": ["global_fetch_strictly_public"],
   "main": "@astrojs/cloudflare/entrypoints/server",
   "name": "starter-astro-7",
